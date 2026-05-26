@@ -52,3 +52,11 @@ print(a.add_ver1(5)) # return 없는 메서드로 반환 None
 print(b.add_ver2(5)) # return 있는 메서드
 print(a.value) 
 print(b.value)
+
+
+# 예외 처리
+try:
+    a = 6/0
+    print(a)
+except:
+    print("0으로 나눌 수 없다")
